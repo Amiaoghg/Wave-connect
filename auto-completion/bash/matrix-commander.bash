@@ -19,7 +19,7 @@ _matrix-commander ()
     local -a opts keys
     cur=${COMP_WORDS[COMP_CWORD]}
 
-    # prev is generally not useful since nargs=+
+    # prev is generally not useful si  nce nargs=+
     prev=${COMP_WORDS[COMP_CWORD-1]}
     opts=(
         -h --help
