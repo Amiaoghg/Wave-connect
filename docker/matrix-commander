@@ -12,7 +12,7 @@ echo "Matrix is running in a container. Data is stored in $DATA_DIR"
 if [ "$1" = "--interactive" ]; then #With this setting keyboard input and screen output will be fine but piping to/from the container will not work.
     INTERACTIVE="true"
     shift
-elif [ "$1" = "--pipes" ]; then #With this setting keyboard input and screen output will not work but piping to/from the container will.
+elif [ "$1" = "--pipes" ]; then #With this setting    keyboard input and screen output will not work but piping to/from the container will.
     INTERACTIVE="false"
     shift
 fi
